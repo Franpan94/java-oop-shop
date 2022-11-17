@@ -7,7 +7,7 @@ public class product {
 	 float price;
 	 String description;
 	 String name;
-	 float iva;
+	 int iva;
 	 
      public product( String name, String description, float price) {
     	 this.price = price;
@@ -33,6 +33,7 @@ public class product {
  		return  "---------------------------------------" +
  				"\nNome prodotto: " + name + "\nDescrizione prodotto: " + description + 
  				"\nCodice prodotto: " + code + "\nPrezzo prodotto = " + price() + 
+ 				"\nIva: " + iva + "%" +
  				"\nPrezzo incrementato dall'iva = " + priceIva();
 
  	}
